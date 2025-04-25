@@ -29,7 +29,7 @@ export function Hero() {
 
             {/* ✅ Center - Overlapping Card */}
             <div className=" absolute   top-[40px] bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
-              <div className="md:px-[20px] my-[70px]">
+              <div className="md:pl-[20px] md:pr-[15px] my-[70px]">
                 <p className="uppercase md:text-[18px] font-normal ">
                   Welcome to LBD – Your Empowerment Partner
                 </p>
