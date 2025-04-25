@@ -11,9 +11,9 @@ import { MdEmail } from 'react-icons/md';
 export function SocialsBanner() {
   return (
     <section className="bg-[#663333]">
-      <div className="global_horizontal_margin font-medium flex justify-between items-center text-[16px] text-white w-full h-[50px]">
+      <div className="global_horizontal_margin font-medium flex justify-between items-center text-[14px] lg:text-[16px] text-white w-full h-[50px]">
         <div className="flex gap-x-[8px] items-center">
-          <h2>Connect With Me On:</h2>
+          <h2 className="hidden lg:block">Connect With Me On:</h2>
           <a
             href="https://github.com/your-profile"
             target="_blank"
@@ -43,8 +43,8 @@ export function SocialsBanner() {
             <FaTiktok />
           </a>
         </div>
-        <div className="flex gap-x-[8px] items-center">
-          <h2>Contact Me On:</h2>
+        <div className="flex gap-x-[10px] lg:gap-x-[8px] items-center">
+          <h2 className="hidden lg:block">Contact Me On:</h2>
           <div className="flex gap-x-[5px] items-center">
             <FaPhoneAlt className="text-[14px]" />
             <a href="tel:+254110061256">+254110061256</a>
