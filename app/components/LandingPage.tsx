@@ -14,7 +14,7 @@ export function LandingPage() {
       <NavbarComponent />
 
       {/* Hero fills remaining height */}
-      <div className="mt-[150px] flex-grow">
+      <div className=" flex-grow">
         <Hero />
       </div>
     </div>
