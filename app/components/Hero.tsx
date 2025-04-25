@@ -33,7 +33,7 @@ export function Hero() {
                 <p className="uppercase md:text-[18px] font-normal ">
                   Welcome to LBD – Your Empowerment Partner
                 </p>
-                <p className="text-[24px] py-[48px] font-medium  leading-relaxed">
+                <p className="text-[24px] py-[40px] font-medium  leading-relaxed">
                   Studying Or Moving To Austria?
                   <br />
                   Planning A European Tour? Feeling <br />
