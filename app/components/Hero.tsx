@@ -34,20 +34,22 @@ export function Hero() {
             />
 
             {/* ✅ Center - Overlapping Card */}
-            <div className=" absolute md:top-[20px] md:bottom-[20px] lg:top-[40px] lg:bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]
-             shadow-md z-10 md:size-[270px] lg:size-[500px] text-center md:text-left">
-              <div className="md:pl-[20px]  md:pr-[15px] md:my-[20px] lg:my-[70px]">
-                <p className="uppercase md:text-[12px] lg:text-[18px] font-normal ">
+            <div className=" absolute md:top-[20px] md:bottom-[20px]
+            lg:top-[85px] lg:bottom-[40px] xl:top-[70px] xl:bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]
+             shadow-md z-10 md:size-[270px] lg:size-[350px] xl:size-[500px] text-center md:text-left">
+              <div className="md:pl-[20px]  md:pr-[15px] md:my-[20px] lg:my-[30px] xl:my-[70px]">
+                <p className="uppercase md:text-[12px] lg:text-[16px] xl:text-[20px] font-normal ">
                   Welcome to LBD – Your Empowerment Partner
                 </p>
-                <p className="md:text-[14px] lg:text-[24px] md:py-[14px]  lg:py-[40px] font-medium  leading-relaxed">
+                <p className="md:text-[14px] lg:text-[18px] xl:text-[24px]
+                 md:py-[14px] lg:py-[20px]  xl:py-[40px] font-medium  leading-relaxed">
                   Studying Or Moving To Austria?
                   Planning A European Tour? Feeling
                   Stuck? I Can Help You Navigate
                   Transitions, Integrate Smoothly, And Seize New
                   Opportunities.
                 </p>
-                <button className="bg-[#7B3939] text-white px-6 py-3 transition uppercase md:text-[12px] lg:text-[16px]">
+                <button className="bg-[#7B3939] text-white px-6 py-3 transition uppercase md:text-[12px] lg:text-[16px] xl:text-[18px]">
                   Get Started
                 </button>
               </div>
