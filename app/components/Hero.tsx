@@ -6,7 +6,7 @@ export function Hero() {
     <section className="bg-[#FBF5F5] h-full flex flex-col items-center ">
       <div
         className="md:text-3xl xl:text-5xl font-bold text-center 
-      text-[#331c1b] md:mt-[40px] md:pb-[12px] xl:mt-[100px]"
+      text-[#331c1b] md:pb-[12px] md:mt-[30px] lg:mt-[50px]"
       >
         <h1>Emma Nashipae</h1>
       </div>
@@ -18,18 +18,20 @@ export function Hero() {
             <img
               src="/profile-photo.png"
               alt="Emma Nashipae"
-              className="md:w-[90%]  xl:w-[100%]  object-cover"
+              className="md:w-[90%] sm:mt-[28px]  lg:mt-[90px] xl:mt-[60px]  xl:w-[100%]  object-cover"
             />
           </div>
 
           {/* Right - Lifestyle Image */}
-          <div className="relative hidden md:block mt-[43px]
-          justify-end flex-shrink-0 ml-auto">
-            {/*<img*/}
-            {/*  src="/home-photo.png"*/}
-            {/*  alt="Lifestyle scene"*/}
-            {/*  className=" object-cover"*/}
-            {/*/>*/}
+          <div
+            className="relative hidden md:block sm:mt-[20px] lg:mt-[43px]
+          justify-end  xl:flex-shrink-0 xl:ml-auto"
+          >
+            <img
+              src="/home-photo.png"
+              alt="Lifestyle scene"
+              className="object-cover lg:mt-[50px] xl:mt-[30px]"
+            />
 
             {/* ✅ Center - Overlapping Card */}
             {/*<div className=" absolute   top-[40px] bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">*/}
