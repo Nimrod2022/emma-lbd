@@ -4,11 +4,11 @@ import Image from 'next/image';
 export function Hero() {
   return (
     <section className="bg-[#FBF5F5] h-full flex flex-col items-center ">
-      <div className="text-4xl md:text-5xl font-bold text-center text-[#331c1b] mt-[40px] ">
+      <div className="text-4xl md:text-5xl font-bold text-center text-[#331c1b] mt-[40px] pb-[12px] ">
         <h1>Emma Nashipae</h1>
       </div>
 
-      <div className="mt-[110px] w-full">
+      <div className=" w-full">
         <div className=" flex  ">
           {/* Left - Portrait */}
           <div className="md:justify-start">
@@ -20,7 +20,7 @@ export function Hero() {
           </div>
 
           {/* ✅ Center - Overlapping Card */}
-          <div className="md:mt-[70px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[50%] bg-white  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
+          <div className="md:mt-[180px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[55%] bg-white  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
             <div className="md:px-[20px] my-[70px]">
               <p className="uppercase md:text-[18px] font-normal text-gray-600 mb-3">
                 Welcome to LBD – Your Empowerment Partner
