@@ -41,7 +41,7 @@ export function Hero() {
                   Transitions, Integrate Smoothly, <br /> And Seize New
                   Opportunities.
                 </p>
-                <button className="bg-[#7B3939] text-white py-[16px] px-3 transition uppercase text-[16px]">
+                <button className="bg-[#7B3939] text-white px-6 py-3 transition uppercase text-[16px]">
                   Get Started
                 </button>
               </div>
