@@ -26,7 +26,7 @@ export function NavbarComponent() {
   ];
 
   return (
-    <section className="border-b-[1px] text-[16px] border-[#663333]">
+    <section className="border-b-[1px] bg-white text-[16px] border-[#663333] h-[100px]">
       <div className="global_horizontal_margin items-center font-semibold my-[10px] uppercase">
         <Navbar
           isBordered
