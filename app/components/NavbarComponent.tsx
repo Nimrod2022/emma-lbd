@@ -26,8 +26,8 @@ export function NavbarComponent() {
   ];
 
   return (
-    <section className="border-b-[1px] bg-white text-[16px] border-[#663333] md:h-[100px]">
-      <div className="global_horizontal_margin items-center font-semibold my-[10px] uppercase">
+    <section className="border-b-[1px] bg-white text-[12px]  xl:text-[16px] border-[#663333] md:h-[100px]">
+      <div className="md:px-[26px] xl:px-[76px] items-center font-semibold my-[10px] uppercase">
         <Navbar
           isBordered
           isBlurred={false}
@@ -35,7 +35,7 @@ export function NavbarComponent() {
           onMenuOpenChange={setIsMenuOpen}
         >
           {/* 🔹 Mobile layout */}
-          <NavbarContent className="sm:hidden w-full items-center justify-between">
+          <NavbarContent className="sm:hidden px  w-full items-center justify-between">
             <div className="flex items-center">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -88,7 +88,7 @@ export function NavbarComponent() {
           {/* LEFT: Logo */}
           <NavbarContent className="hidden sm:flex" justify="start">
             <NavbarBrand>
-              <img src="/logo.svg" width={200} height={80} alt="LBD Logo" />
+              <img src="/logo.svg" className="md:w-[100px] md:h-[40px] xl:w-[200px] xl:h-[80px]" alt="LBD Logo" />
             </NavbarBrand>
           </NavbarContent>
 

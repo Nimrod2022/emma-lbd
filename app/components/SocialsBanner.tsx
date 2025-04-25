@@ -11,7 +11,7 @@ import { MdEmail } from 'react-icons/md';
 export function SocialsBanner() {
   return (
     <section className="bg-[#663333]">
-      <div className="global_horizontal_margin font-medium flex justify-between items-center text-[14px] lg:text-[16px] text-white w-full h-[50px]">
+      <div className="global_horizontal_margin font-medium flex justify-between items-center text-[14px] xl:text-[16px] text-white w-full h-[50px]">
         <div className="flex gap-x-[8px] items-center">
           <h2 className="hidden lg:block">Connect With Me On:</h2>
           <a
