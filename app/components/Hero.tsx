@@ -19,8 +19,6 @@ export function Hero() {
             />
           </div>
 
-
-
           {/* Right - Lifestyle Image */}
           <div className="relative hidden md:block mt-[43px]  justify-end flex-shrink-0 ml-auto">
             <img
@@ -32,10 +30,10 @@ export function Hero() {
             {/* ✅ Center - Overlapping Card */}
             <div className=" absolute   top-[40px] bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
               <div className="md:px-[20px] my-[70px]">
-                <p className="uppercase md:text-[18px] font-normal text-gray-600 mb-3">
+                <p className="uppercase md:text-[18px] font-normal ">
                   Welcome to LBD – Your Empowerment Partner
                 </p>
-                <p className="text-[24px] font-medium  leading-relaxed">
+                <p className="text-[24px] py-[48px] font-medium  leading-relaxed">
                   Studying Or Moving To Austria?
                   <br />
                   Planning A European Tour? Feeling <br />
@@ -43,7 +41,7 @@ export function Hero() {
                   Transitions, Integrate Smoothly, <br /> And Seize New
                   Opportunities.
                 </p>
-                <button className="mt-6 bg-[#8e3e3e] text-white px-6 py-3 rounded hover:bg-[#6e2e2e] transition">
+                <button className="bg-[#7B3939] text-white py-[16px] px-3 transition uppercase text-[16px]">
                   Get Started
                 </button>
               </div>
