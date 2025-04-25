@@ -24,7 +24,7 @@ export function Hero() {
 
           {/* Right - Lifestyle Image */}
           <div
-            className="relative hidden md:block sm:mt-[20px] lg:mt-[43px]
+            className="relative hidden md:block md:mt-[20px] lg:mt-[43px]
           justify-end  xl:flex-shrink-0 xl:ml-auto"
           >
             <img
@@ -34,24 +34,24 @@ export function Hero() {
             />
 
             {/* ✅ Center - Overlapping Card */}
-            {/*<div className=" absolute   top-[40px] bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">*/}
-            {/*  <div className="md:pl-[20px] md:pr-[15px] my-[70px]">*/}
-            {/*    <p className="uppercase md:text-[18px] font-normal ">*/}
-            {/*      Welcome to LBD – Your Empowerment Partner*/}
-            {/*    </p>*/}
-            {/*    <p className="text-[24px] py-[40px] font-medium  leading-relaxed">*/}
-            {/*      Studying Or Moving To Austria?*/}
-            {/*      <br />*/}
-            {/*      Planning A European Tour? Feeling <br />*/}
-            {/*      Stuck? I Can Help You Navigate <br />*/}
-            {/*      Transitions, Integrate Smoothly, <br /> And Seize New*/}
-            {/*      Opportunities.*/}
-            {/*    </p>*/}
-            {/*    <button className="bg-[#7B3939] text-white px-6 py-3 transition uppercase text-[16px]">*/}
-            {/*      Get Started*/}
-            {/*    </button>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            <div className=" absolute md:top-[20px] md:bottom-[20px] lg:top-[40px] lg:bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]
+             shadow-md z-10 md:size-[270px] lg:size-[500px] text-center md:text-left">
+              <div className="md:pl-[20px]  md:pr-[15px] md:my-[20px] lg:my-[70px]">
+                <p className="uppercase md:text-[12px] lg:text-[18px] font-normal ">
+                  Welcome to LBD – Your Empowerment Partner
+                </p>
+                <p className="md:text-[14px] lg:text-[24px] md:py-[14px]  lg:py-[40px] font-medium  leading-relaxed">
+                  Studying Or Moving To Austria?
+                  Planning A European Tour? Feeling
+                  Stuck? I Can Help You Navigate
+                  Transitions, Integrate Smoothly, And Seize New
+                  Opportunities.
+                </p>
+                <button className="bg-[#7B3939] text-white px-6 py-3 transition uppercase md:text-[12px] lg:text-[16px]">
+                  Get Started
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
