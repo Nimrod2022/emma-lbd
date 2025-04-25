@@ -19,33 +19,35 @@ export function Hero() {
             />
           </div>
 
-          {/* ✅ Center - Overlapping Card */}
-          <div className="md:mt-[180px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[55%] bg-white  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
-            <div className="md:px-[20px] my-[70px]">
-              <p className="uppercase md:text-[18px] font-normal text-gray-600 mb-3">
-                Welcome to LBD – Your Empowerment Partner
-              </p>
-              <p className="text-[24px] font-medium  leading-relaxed">
-                Studying Or Moving To Austria?
-                <br />
-                Planning A European Tour? Feeling <br />
-                Stuck? I Can Help You Navigate <br />
-                Transitions, Integrate Smoothly, <br /> And Seize New
-                Opportunities.
-              </p>
-              <button className="mt-6 bg-[#8e3e3e] text-white px-6 py-3 rounded hover:bg-[#6e2e2e] transition">
-                Get Started
-              </button>
-            </div>
-          </div>
+
 
           {/* Right - Lifestyle Image */}
-          <div className="hidden md:block mt-[43px]  justify-end flex-shrink-0 ml-auto">
+          <div className="relative hidden md:block mt-[43px]  justify-end flex-shrink-0 ml-auto">
             <img
               src="/home-photo.png"
               alt="Lifestyle scene"
               className=" object-cover"
             />
+
+            {/* ✅ Center - Overlapping Card */}
+            <div className=" absolute   top-[40px] bottom-[40px] -translate-x-1/2  bg-[#FBFCFE]  shadow-md z-10 w-[90%] md:size-[500px] text-center md:text-left">
+              <div className="md:px-[20px] my-[70px]">
+                <p className="uppercase md:text-[18px] font-normal text-gray-600 mb-3">
+                  Welcome to LBD – Your Empowerment Partner
+                </p>
+                <p className="text-[24px] font-medium  leading-relaxed">
+                  Studying Or Moving To Austria?
+                  <br />
+                  Planning A European Tour? Feeling <br />
+                  Stuck? I Can Help You Navigate <br />
+                  Transitions, Integrate Smoothly, <br /> And Seize New
+                  Opportunities.
+                </p>
+                <button className="mt-6 bg-[#8e3e3e] text-white px-6 py-3 rounded hover:bg-[#6e2e2e] transition">
+                  Get Started
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
