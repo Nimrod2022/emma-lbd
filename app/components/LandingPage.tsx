@@ -7,20 +7,23 @@ import { Contact } from '@/app/components/Contact';
 
 export function LandingPage() {
   return (
-    <div className="lg:h-screen flex flex-col">
-      {/* Socials + Navbar */}
-      <div className="hidden md:block">
-        <SocialsBanner />
+    <div className="flex flex-col">
+      {/* Sticky Header (Banner + Navbar) */}
+      <div className="sticky top-0 z-50">
+        <div className="hidden md:block">
+          <SocialsBanner />
+        </div>
+        <NavbarComponent />
       </div>
-      <NavbarComponent />
 
-      {/* Hero fills remaining height */}
-      <div className=" flex-grow">
+      {/* Hero */}
+      <div className="flex-grow">
         <Hero />
       </div>
 
-      <div className="">
-        <Contact/>
+      {/* Contact */}
+      <div>
+        <Contact />
       </div>
     </div>
   );
