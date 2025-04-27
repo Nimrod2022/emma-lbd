@@ -4,6 +4,7 @@ import { SocialsBanner } from '@/app/components/SocialsBanner';
 import { NavbarComponent } from '@/app/components/NavbarComponent';
 import { Hero } from '@/app/components/Hero';
 import { Contact } from '@/app/components/Contact';
+import { Services } from '@/app/components/Services';
 
 export function LandingPage() {
   return (
@@ -19,6 +20,11 @@ export function LandingPage() {
       {/* Hero */}
       <div className="flex-grow">
         <Hero />
+      </div>
+
+      {/* Services */}
+      <div>
+        <Services />
       </div>
 
       {/* Contact */}

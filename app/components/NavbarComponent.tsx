@@ -29,7 +29,7 @@ export function NavbarComponent() {
     <section className="border-b-[1px] bg-white text-[12px]  xl:text-[16px] border-[#663333] md:h-[60px] lg:h-[100px]">
       <div className="md:px-[26px] xl:px-[76px] items-center font-semibold py-[10px] uppercase">
         <Navbar
-          isBordered
+          isBordered={false}
           isBlurred={false}
           isMenuOpen={isMenuOpen}
           onMenuOpenChange={setIsMenuOpen}
