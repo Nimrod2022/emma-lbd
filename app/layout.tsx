@@ -1,13 +1,8 @@
 import './globals.css';
 
-import { Sen } from 'next/font/google';
-import { Providers } from '@/app/Providers';
+import { sen } from '@/app/fonts';
 
-const sen = Sen({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  display: 'swap',
-});
+import { Providers } from '@/app/Providers';
 
 export default function RootLayout({
   children,

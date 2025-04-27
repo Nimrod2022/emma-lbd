@@ -23,6 +23,7 @@ export function SocialsBanner() {
             rel="noopener noreferrer"
           >
             <FaFacebook />
+
           </a>
           <a
             href="https://twitter.com/your-profile"

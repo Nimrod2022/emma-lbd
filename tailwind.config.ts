@@ -7,7 +7,8 @@ const config = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}',
-  ],  theme: {
+  ],
+  theme: {
     extend: {
       screens: {
         // Custom 4K screen — kicks in at 2560px and above

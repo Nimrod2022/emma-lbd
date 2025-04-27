@@ -3,6 +3,7 @@
 import { SocialsBanner } from '@/app/components/SocialsBanner';
 import { NavbarComponent } from '@/app/components/NavbarComponent';
 import { Hero } from '@/app/components/Hero';
+import { Contact } from '@/app/components/Contact';
 
 export function LandingPage() {
   return (
@@ -16,6 +17,10 @@ export function LandingPage() {
       {/* Hero fills remaining height */}
       <div className=" flex-grow">
         <Hero />
+      </div>
+
+      <div className="">
+        <Contact/>
       </div>
     </div>
   );
