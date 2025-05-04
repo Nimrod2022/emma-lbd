@@ -88,7 +88,7 @@ export function NavbarComponent() {
           {/* LEFT: Logo */}
           <NavbarContent className="hidden sm:flex" justify="start">
             <NavbarBrand>
-              <img src="/logo.svg" className="md:w-[100px] md:h-[40px] xl:w-[200px] xl:h-[80px]" alt="LBD Logo" />
+              <img src="/logo.png" className="md:w-[100px] md:h-[40px] xl:w-[200px] xl:h-[80px]" alt="LBD Logo" />
             </NavbarBrand>
           </NavbarContent>
 

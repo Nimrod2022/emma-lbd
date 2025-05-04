@@ -5,6 +5,7 @@ import { NavbarComponent } from '@/app/components/NavbarComponent';
 import { Hero } from '@/app/components/Hero';
 import { Contact } from '@/app/components/Contact';
 import { Services } from '@/app/components/Services';
+import { About } from '@/app/components/About';
 
 export function LandingPage() {
   return (
@@ -20,6 +21,11 @@ export function LandingPage() {
       {/* Hero */}
       <div className="flex-grow">
         <Hero />
+      </div>
+
+      {/* ABout */}
+      <div>
+        <About />
       </div>
 
       {/* Services */}
