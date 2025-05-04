@@ -58,9 +58,9 @@ export function Services() {
         </div>
 
         {/* Right White Card */}
-        <div className="md:w-[50%] md:h-[500px] lg:h-[640px] bg-white shadow-lg p-8 relative  md:-ml-20 z-10">
+        <div className="md:w-[50%] md:h-[500px] xl:h-[640px] bg-white shadow-lg p-8 relative  md:-ml-20 z-10">
           {/* Heading */}
-          <h3 className="md:text-[16px] lg:text-[18px] font-semibold ">HOW I CAN HELP YOU</h3>
+          <h3 className="md:text-[16px] xl:text-[18px] font-semibold ">HOW I CAN HELP YOU</h3>
 
           {/* Subheading */}
           <p className="md:my-[10px] xl:my-[20px] text-sm max-w-md">
@@ -69,7 +69,7 @@ export function Services() {
 
           {/* Services Accordion */}
           <div className="">
-            <h4 className="md:text-[16px] lg:text-[18px] font-medium md:mb-4 lg:mb-2">SERVICES</h4>
+            <h4 className="md:text-[16px] xl:text-[18px] font-medium md:mb-4 xl:mb-2">SERVICES</h4>
             {services.map((service, index) => (
               <div
                 key={index}
@@ -78,7 +78,7 @@ export function Services() {
                 <button
                   onClick={() => toggleAccordion(index)}
                   className="w-full flex justify-between items-center
-                   md:text-[14px] lg:text-[16px] md:py-2 lg:py-4 text-left font-semibold text-black"
+                   md:text-[14px] xl:text-[16px] md:py-2 xl:py-4 text-left font-semibold text-black"
                 >
                   <span>
                     {index + 1}. {service.title}
@@ -99,7 +99,7 @@ export function Services() {
                       : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <div className=" pb-[10px] md:text-[12px] lg:text-[16px] text-black  space-y-2">
+                  <div className=" pb-[10px] md:text-[12px] xl:text-[16px] text-black  space-y-2">
                     <ul className="list-disc pl-5 space-y-2">
                       {service.details.map((point, idx) => (
                         <li key={idx}>{point}</li>
@@ -113,7 +113,7 @@ export function Services() {
 
           {/* CTA Button */}
           <div className="mt-8">
-            <button className="bg-[#7B3939] text-white py-3 px-6 uppercase text-sm font-semibold hover:bg-[#592828] transition ">
+            <button className="bg-[#7B3939] text-white py-2 px-3 xl:py-3 xl:px-6 uppercase text-sm font-semibold hover:bg-[#592828] transition ">
               Book a Consultation
             </button>
           </div>
