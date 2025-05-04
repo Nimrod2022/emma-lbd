@@ -8,7 +8,7 @@ export function Hero() {
         className="md:text-3xl xl:text-5xl font-bold text-center 
       text-[#331c1b] md:pb-[12px] md:mt-[30px] lg:mt-[50px]"
       >
-        <h1>Emma Nashipae</h1>
+        <h1>Emma Onditi</h1>
       </div>
 
       <div className="w-full">
@@ -44,7 +44,7 @@ export function Hero() {
             >
               <div
                 className="md:pl-[20px]  md:pr-[15px] md:my-[20px] 
-              lg:my-[30px] xl:my-[70px]"
+              lg:my-[30px] xl:my-[50px]"
               >
                 <p
                   className="uppercase md:text-[12px] lg:text-[16px]
@@ -54,7 +54,7 @@ export function Hero() {
                 </p>
                 <p
                   className="md:text-[14px] lg:text-[18px] xl:text-[24px]
-                 md:py-[14px] lg:py-[20px]  xl:py-[40px] font-medium 
+                 md:py-[14px] lg:py-[20px]  xl:py-[32px] font-medium
                   leading-relaxed"
                 >
                   Studying Or Moving To Austria? Planning A European Tour?
