@@ -46,7 +46,7 @@ export function Services() {
   };
 
   return (
-    <section className="relative bg-[#E7DBCC] md:py-8 lg:py-16">
+    <section className="relative bg-[#E7DBCC] md:py-8 lg:py-[50px]">
       <div className="flex flex-col md:flex-row items-center gap-8">
         {/* Left Image */}
         <div className="w-full md:w-1/2 ">
@@ -58,7 +58,8 @@ export function Services() {
         </div>
 
         {/* Right White Card */}
-        <div className="md:w-[50%] md:h-[500px] xl:h-[640px] bg-white shadow-lg p-8 relative  md:-ml-20 z-10">
+        <div className="md:w-[50%] md:h-[500px] xl:h-[640px] bg-white
+        shadow-lg p-8 relative  md:-ml-20 z-10">
           {/* Heading */}
           <h3 className="md:text-[16px] xl:text-[18px] font-semibold ">HOW I CAN HELP YOU</h3>
 
