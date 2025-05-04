@@ -6,7 +6,7 @@ export function Hero() {
     <section className="bg-[#FBF5F5] h-full flex flex-col items-center ">
       <div
         className="md:text-3xl xl:text-5xl font-bold text-center 
-      text-[#331c1b] md:pb-[12px] md:mt-[30px] lg:mt-[50px]"
+      text-[#331c1b] md:pb-[12px] md:mt-[30px] lg:mt-[50px] xl:mt-[40px]"
       >
         <h1>Emma Onditi</h1>
       </div>
