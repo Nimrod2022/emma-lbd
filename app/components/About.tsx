@@ -9,15 +9,15 @@ export function About() {
           <img
             src="/about-image.svg"
             alt="Hat and Notebook"
-            className="object-cover w-full md:h-[500px] lg:h-[720px]"
+            className="object-cover w-full md:h-[500px] xl:h-[720px]"
           />
         </div>
 
         {/* Left White Card */}
-        <div className=" md:w-1/2   flex justify-center">
+        <div className="md:w-1/2   flex justify-center">
           <div
-            className="bg-white text-[14px] lg:text-[16px] lg:leading-[32px]  lg:w-[650px] shadow-lg
-          md:px-[20px] lg:px-[40px] md:py-[10px] lg:py-[20px] relative md:absolute md:right-[40%] lg:right-[605px] md:top-1/2 md:-translate-y-1/2 md:ml-[50px]  z-10"
+            className="bg-white text-[14px] xl:text-[16px] xl:leading-[32px]  xl:w-[650px] shadow-lg
+          md:px-[20px] xl:px-[40px] md:py-[10px] xl:py-[20px] relative md:absolute md:right-[40%] xl:right-[605px] md:top-1/2 md:-translate-y-1/2 md:ml-[50px]  z-10"
           >
             {/* About Me */}
             <h3 className="text-[14px] lg:text-[18px] font-medium ">
